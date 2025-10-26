@@ -12,7 +12,7 @@ It includes a self-contained **project report** and two executable notebooks. Th
 
 
 
-### What’s inside (brief)
+### What’s inside 
 - **MIMO Detection (SDR vs. ZF/MMSE/SD)**  
   Real-valued QCQP formulation → SDP relaxation → randomized recovery; BER vs. SNR and runtime scaling.  
   *Notebook:* `project-mimo.ipynb`
