@@ -11,16 +11,3 @@ It includes a self-contained **project report** and two executable notebooks. Th
 > 📄 See the full report: **[convex_project_report.pdf](convex_project_report.pdf)**
 
 
-
-### What’s inside 
-- **MIMO Detection (SDR vs. ZF/MMSE/SD)**  
-  Real-valued QCQP formulation → SDP relaxation → randomized recovery; BER vs. SNR and runtime scaling.  
-  *Notebook:* `project-mimo.ipynb`
-- **Max-Cut (SDP + Goemans–Williamson rounding)**  
-  Laplacian form → SDP relaxation → **random hyperplane** rounding; cut quality vs. baselines on sample graphs.  
-  *Notebook:* `MaxCut_GraphColoring.ipynb`
-- **Graph Coloring (SDP & Lovász number; refined KMS)**  
-  SDP surrogates for χ(G); **Lovász θ(G)** as a bound; hyperplane-based semi-colorings combined with degree-based peeling (Karger–Motwani–Sudan) for improved color counts.  
-  *Notebook:* `MaxCut_GraphColoring.ipynb`
-
-> Each section in the report mirrors the notebook logic and provides the math behind the implementations.
