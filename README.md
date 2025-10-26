@@ -1,2 +1,11 @@
-# Convex-Optimization-SDR
-Convex optimization project exploring semidefinite relaxations (SDR) for three problems—MIMO detection, Max-Cut, and Graph Coloring—including SDP formulations, Goemans–Williamson hyperplane rounding, Lovász theta bounds, and a refined Karger–Motwani–Sudan coloring approach.
+# Convex Optimization via Semidefinite Relaxations (SDR)
+
+## About
+This repository contains a compact project on applying **Semidefinite Relaxation (SDR)** to classic non-convex problems:
+- **MIMO detection** (communications)
+- **Max-Cut** (combinatorial optimization)
+- **Graph coloring** (chromatic number bounds and algorithms)
+
+It includes a self-contained **project report** and two executable notebooks. The report presents the derivations and algorithms; the notebooks reproduce core experiments and visualizations.
+
+> 📄 See the full report: **[convex_project_report.pdf](convex_project_report.pdf)**
